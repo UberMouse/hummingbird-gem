@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hummingbird.me/api/v1/search/anime?query=Log%20Horizon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 14 Nov 2014 04:41:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4913b6c646ebb7513edaa9b3057e38e41415940094; expires=Sat, 14-Nov-15
+        04:41:34 GMT; path=/; domain=.hummingbird.me; HttpOnly
+      Status:
+      - 200 OK
+      Etag:
+      - W/"e09678fecd61a83350a32fe0eba28962"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0e5c1ec5-2981-4dda-aeaa-ba4d252ef399
+      X-Runtime:
+      - '0.243373'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1890899523e504d4-SYD
+    body:
+      encoding: UTF-8
+      string: "[{\"id\":7622,\"slug\":\"log-horizon\",\"status\":\"Finished Airing\",\"url\":\"https://hummingbird.me/anime/log-horizon\",\"title\":\"Log
+        Horizon\",\"alternate_title\":\"\",\"episode_count\":25,\"episode_length\":25,\"cover_image\":\"https://static.hummingbird.me/anime/poster_images/000/007/622/large/b0012149_5229cf3c7f4ee.jpg?1408461927\",\"synopsis\":\"The
+        story begins when 30,000 Japanese gamers are trapped in the fantasy online
+        game world Elder Tale. What was once a sword-and-sorcery world is now the
+        real world. The main lead Shiroe attempts to survive with his old friend Naotsugu
+        and the beautiful assassin Akatsuki.\\r\\n(Source: ANN)\",\"show_type\":\"TV\",\"started_airing\":\"2013-10-05\",\"finished_airing\":\"2014-03-22\",\"community_rating\":4.16519124505186,\"age_rating\":\"PG13\"},{\"id\":8114,\"slug\":\"log-horizon-recap\",\"status\":\"Finished
+        Airing\",\"url\":\"https://hummingbird.me/anime/log-horizon-recap\",\"title\":\"Log
+        Horizon Recap\",\"alternate_title\":\"\",\"episode_count\":1,\"episode_length\":58,\"cover_image\":\"https://static.hummingbird.me/anime/poster_images/000/008/114/large/56085.jpg?1408463493\",\"synopsis\":\"Recap
+        of the first six episodes of Log Horizon, aired between episode 6-7.\",\"show_type\":\"Special\",\"started_airing\":\"2013-11-11\",\"finished_airing\":null,\"community_rating\":3.37865428713431,\"age_rating\":\"PG13\"},{\"id\":8313,\"slug\":\"log-horizon-2\",\"status\":\"Currently
+        Airing\",\"url\":\"https://hummingbird.me/anime/log-horizon-2\",\"title\":\"Log
+        Horizon 2\",\"alternate_title\":\"\",\"episode_count\":25,\"episode_length\":24,\"cover_image\":\"https://static.hummingbird.me/anime/poster_images/000/008/313/large/fNxde1h.jpg?1411851812\",\"synopsis\":\"Veteran
+        gamer Shiroe and other players have been trapped in the world of the online
+        game Elder Tales for six months. The once chaotic city of Akiba has regained
+        its everyday hustle and bustle following the formation of the self-governing
+        organization Round Table Meeting. The earthlings, who are originally from
+        the game world, have gained the trust of Shiroe by waging a defensive war
+        against the Goblins in Zantleaf Region. This has led Princess Rayneshia of
+        the Cowen family, the highest-ranking Earthling Aristocrats, to live in Akiba.\\r\\n\\r\\nIt's
+        almost winter and the Adventurers are thinking about what they're going to
+        do and what their goals are in this other world. Will they remain in Akiba
+        or go to the city of the West? Or will they travel to the land of the North
+        or another faraway country? The opinions of the Adventurers begin to diverge.
+        What adventures await the members of the Shiroe team in this second series
+        of Log Horizon?\\r\\n\\r\\n(Source: NHK Enterprises) \",\"show_type\":\"TV\",\"started_airing\":\"2014-10-04\",\"finished_airing\":null,\"community_rating\":4.07666853233309,\"age_rating\":\"PG13\"}]"
+    http_version: 
+  recorded_at: Fri, 14 Nov 2014 04:41:34 GMT
+recorded_with: VCR 2.9.3
