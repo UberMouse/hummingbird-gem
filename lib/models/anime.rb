@@ -1,4 +1,4 @@
 class Anime
 
-  attr_reader :slug
+  attr_accessor :slug
 end

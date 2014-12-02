@@ -4,13 +4,12 @@ describe Hummingbird do
   let(:hummingbird) {Hummingbird.new}
 
   describe "#search" do
-    use_vcr_cassette
     
     let(:expected_results) {
-      [Anime.new()]
+      [Anime.new(slug: 'log-horizon')]
     }
 
-    it 'can retrieve search results from hummingbird' do
+    it 'can retrieve search results from hummingbird', :vcr do
       results = hummingbird.search('Log Horizon')
 
       expect(results).to eq(expected_results)
